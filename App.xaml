@@ -1,0 +1,28 @@
+<Application x:Class="CyberChat.WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Global Cybersecurity Theme Resources -->
+        
+        <!-- Color Palette -->
+        <Color x:Key="PrimaryDarkColor">#0A0E1A</Color>
+        <Color x:Key="SecondaryDarkColor">#111827</Color>
+        <Color x:Key="AccentCyanColor">#00D4FF</Color>
+        <Color x:Key="AccentGreenColor">#00FF88</Color>
+        <Color x:Key="UserBubbleColor">#1A3A4A</Color>
+        <Color x:Key="BotBubbleColor">#1A2744</Color>
+        <Color x:Key="TextLightColor">#E2E8F0</Color>
+        <Color x:Key="TextMutedColor">#94A3B8</Color>
+        
+        <SolidColorBrush x:Key="PrimaryDarkBrush" Color="{StaticResource PrimaryDarkColor}"/>
+        <SolidColorBrush x:Key="SecondaryDarkBrush" Color="{StaticResource SecondaryDarkColor}"/>
+        <SolidColorBrush x:Key="AccentCyanBrush" Color="{StaticResource AccentCyanColor}"/>
+        <SolidColorBrush x:Key="AccentGreenBrush" Color="{StaticResource AccentGreenColor}"/>
+        <SolidColorBrush x:Key="UserBubbleBrush" Color="{StaticResource UserBubbleColor}"/>
+        <SolidColorBrush x:Key="BotBubbleBrush" Color="{StaticResource BotBubbleColor}"/>
+        <SolidColorBrush x:Key="TextLightBrush" Color="{StaticResource TextLightColor}"/>
+        <SolidColorBrush x:Key="TextMutedBrush" Color="{StaticResource TextMutedColor}"/>
+        
+    </Application.Resources>
+</Application>
