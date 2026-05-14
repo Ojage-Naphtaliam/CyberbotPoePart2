@@ -5,7 +5,7 @@
     <Application.Resources>
         <!-- Global Cybersecurity Theme Resources -->
         
-        <!-- Color Palette -->
+        <!-- Color Palette -->  
         <Color x:Key="PrimaryDarkColor">#0A0E1A</Color>
         <Color x:Key="SecondaryDarkColor">#111827</Color>
         <Color x:Key="AccentCyanColor">#00D4FF</Color>

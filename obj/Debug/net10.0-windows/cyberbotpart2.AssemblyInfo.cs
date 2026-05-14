@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CyberChat.WPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a57b80fdc12c773d4ea67bd7e32f6b4dc0f9af64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c68e30ccb50b3bfc93eaadf7b2ab59049596dac8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CyberChat.WPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CyberChat.WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
