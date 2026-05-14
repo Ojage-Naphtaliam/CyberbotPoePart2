@@ -1,8 +1,6 @@
-// ============================================================================
 // ChatMessage.cs
 // Model class representing a single chat message in the conversation.
 // Used with ObservableCollection for UI data binding.
-// ============================================================================
 
 namespace CyberChat.WPF.Models
 {

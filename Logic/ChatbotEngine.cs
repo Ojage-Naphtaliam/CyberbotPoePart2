@@ -1,12 +1,10 @@
-// ============================================================================
 // ChatbotEngine.cs
 // Core chatbot logic: keyword matching, random responses, sentiment handling,
 // memory integration, and conversation flow management.
-// ============================================================================
 
 namespace CyberChat.WPF.Logic
 {
-    // ── Custom Delegate for UI communication ──────────────────────────────
+    // ── Custom Delegate for UI communication 
     public delegate void NewMessageHandler(string message, bool isUser);
 
     /// <summary>
@@ -16,10 +14,10 @@ namespace CyberChat.WPF.Logic
     /// </summary>
     public class ChatbotEngine
     {
-        // ── Events (Delegate usage) ──────────────────────────────────────
+        // ── Events (Delegate usage) 
         public event NewMessageHandler? OnNewMessage;
 
-        // ── Private Fields ───────────────────────────────────────────────
+        // ── Private Fields
         private readonly Dictionary<string, List<string>> _keywordResponses;
         private readonly SentimentAnalyzer _sentimentAnalyzer;
         private readonly MemoryManager _memoryManager;
